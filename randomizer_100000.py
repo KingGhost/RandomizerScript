@@ -53,8 +53,11 @@ def complete(xtimes):
         print orangecount.count(i)
 
 
+#the number here is the number of trials you want to do. Feel free to change this number
+complete(1000)
 
-complete(1000000)
+
+
 print '------------------------- alist confirm -------------------------'
 print "Yellow :", alist.count("Yellow")
 print "Orange :",alist.count("Orange")
